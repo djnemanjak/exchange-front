@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  exchange-front:
+    build: .
+    container_name: exchange-front
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - .:/var/www/exchange-front
+      - /var/www/exchange-front/node_modules
+    ports:
+      - "3000:3000"

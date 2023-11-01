@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+.input-amount,
+.input-from{
+  margin-bottom: 20px;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+select {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 106%;
+}
+.btn {
+  background: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: lightblue;
+}
+.output {
+  margin-top: 20px;
+}
